@@ -27,12 +27,7 @@
             "styles": [
               "projects/base/src/styles.css"
             ],
-            "scripts": [],
-            "server": "projects/base/src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "projects/base/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
