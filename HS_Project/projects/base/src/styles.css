@@ -1,8 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px;
+}
+/* Mockup Hex-values
+*  Header / Footer: #697367
+*  Buttons: #1D1D1D
+*  Project Frame: #353435
+*/
+
 lt-header { 
-    width: 100%;
-    height: 68px;
-    background-color: #061b0f;
+    background-color: #697367;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+lt-footer { 
+    background-color: #697367;
     padding: 16px;
     display: flex;
     flex-direction: row;
