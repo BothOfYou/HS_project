@@ -3,29 +3,29 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "base": {
+    "HS_Project": {
       "projectType": "application",
       "schematics": {},
-      "root": "projects/base",
-      "sourceRoot": "projects/base/src",
+      "root": "",
+      "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/base",
-            "index": "projects/base/src/index.html",
-            "browser": "projects/base/src/main.ts",
+            "outputPath": "dist/HS_Project",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "projects/base/tsconfig.app.json",
+            "tsConfig": "tsconfig.app.json",
             "assets": [
-              "projects/base/src/favicon.ico",
-              "projects/base/src/assets"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "projects/base/src/styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "base:build:production"
+              "buildTarget": "HS_Project:build:production"
             },
             "development": {
-              "buildTarget": "base:build:development"
+              "buildTarget": "HS_Project:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "base:build"
+            "buildTarget": "HS_Project:build"
           }
         },
         "test": {
@@ -78,13 +78,13 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "projects/base/tsconfig.spec.json",
+            "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "projects/base/src/favicon.ico",
-              "projects/base/src/assets"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "projects/base/src/styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           }
