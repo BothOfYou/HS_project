@@ -1,0 +1,68 @@
+body {
+    font-family: 'Monda', sans-serif;
+}
+lt-header { 
+    width: 100%;
+    background-color: #697367;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-title { 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu-button {
+    /* font-family: 'Monda', sans-serif;
+    font-size: 24px; */
+}
+
+img {
+    display: block;
+    max-width:300px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+}
+
+.lt-icon {
+    display: block;
+    max-width:300px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+}
+
+/* .lt-overview:before {
+    content: url('images/Ov-Icon.png');
+}
+.lt-2d:before {
+    content: url('images/2D-Icon.png');
+}
+.lt-3d:before {
+    content: url('images/3D-Icon.png');
+} */
+
+lt-footer { 
+    background-color: #697367;
+    /* width: 100%;
+    height: 68px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+
+/***** Overwrite PrimeNG *****/
+
+.p-button-label { 
+    font-family: 'Monda', sans-serif;
+    font-size: 18px;
+}
+

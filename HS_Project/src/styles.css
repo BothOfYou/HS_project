@@ -1,40 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* import for the Monda font*/
+@import url('https://fonts.googleapis.com/css?family=Monda'); 
+/* Own theme */
+@import "app/assets/theme.css";
+
+
+/* PrimeNG*/
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
-@import url('https://fonts.googleapis.com/css?family=Monda'); /* import for the Monda font*/
-
-
-/* You can add global styles to this file, and also import other style files */
-body {
-    font-family: 'Monda', sans-serif;
-}
-
-.menu-title { 
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.menu-button {
-    font-family: 'Monda', sans-serif;
-    font-size: 24px;
-}
-lt-header { 
-    width: 100%;
-    height: 68px;
-    background-color: #697367;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-lt-footer { 
-    background-color: #697367;
-    /* width: 100%;
-    height: 68px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
-}
+@import "../node_modules/primeicons/primeicons.css"

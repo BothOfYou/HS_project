@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 
 import { TooltipModule } from 'primeng/tooltip';
 import { GalleriaModule } from 'primeng/galleria';
+import { ButtonModule } from 'primeng/button';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -22,7 +23,8 @@ import { GalleriaWallComponent } from './galleria-wall/galleria-wall.component';
     ReactiveFormsModule,
     RouterModule.forRoot([]),
     TooltipModule,
-    GalleriaModule
+    GalleriaModule,
+    ButtonModule
   ],
   declarations: [ AppComponent, HeaderComponent, FooterComponent, InfoTooltipComponent, GalleriaComponent, GalleriaWallComponent],
   bootstrap:    [ AppComponent ]
