@@ -38,13 +38,13 @@ img {
 }
 
 /* .lt-overview:before {
-    content: url('images/Ov-Icon.png');
+    content: url('../../assets/images/Ov-Icon.png');
 }
 .lt-2d:before {
-    content: url('images/2D-Icon.png');
+    content: url('../../assets/images/2D-Icon.png');
 }
 .lt-3d:before {
-    content: url('images/3D-Icon.png');
+    content: url('../../assets/images/3D-Icon.png');
 } */
 
 lt-footer { 
